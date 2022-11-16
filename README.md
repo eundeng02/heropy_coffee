@@ -1,10 +1,27 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1cbd6948-19c3-4cdf-b785-aa71d080b2c9/deploy-status)](https://app.netlify.com/sites/epic-darwin-271c77/deploys)
 
+# 제목1
+
+## 제목2
+
+1. 순서가 필요한 목록
+1. 순서가 필요한 목록
+1. 순서가 필요한 목록
+   1. 순서가 필요한 목록
+   1. 순서가 필요한 목록
+1. 순서가 필요한 목록
+
+- 순서가 필요하지 않은 목록
+- 순서가 필요하지 않은 목록
+  - 순서가 필요하지 않은 목록
+  - 순서가 필요하지 않은 목록
+- 순서가 필요하지 않은 목록
+
 # ☕ HEROPY COFFEE
 
 헤로피커피 랜딩 페이지(홈페이지)를 만드는 예제입니다.<br>
 꼭 ⬇ 아래 내용 모두 읽어보시고, ⬆ 완성된 코드도 확인해 보세요!
-
+커밋 테스트
 [DEMO](https://epic-darwin-271c77.netlify.app/)  
 [DEMO/signin](https://practical-ritchie-d283cb.netlify.app/signin/)
 
@@ -15,7 +32,7 @@
 문자가 인코딩되는 방식을 설정합니다.
 
 ```html
-<meta charset="UTF-8"/>
+<meta charset="UTF-8" />
 ```
 
 - `UTF-8`: 초성, 중성, 종성으로 구분하여 문자를 작성(권장)
@@ -66,7 +83,10 @@
 각 브라우저의 기본 스타일을 초기화합니다.
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+/>
 ```
 
 ## 오픈 그래프(The Open Graph protocol)
@@ -87,7 +107,10 @@ KakaoTalk -
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Heropy Coffee" />
 <meta property="og:title" content="Heropy Coffee Landing" />
-<meta property="og:description" content="헤로피커피는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+<meta
+  property="og:description"
+  content="헤로피커피는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다."
+/>
 <meta property="og:image" content="./images/for_seo.jpg" />
 <meta property="og:url" content="https://epic-darwin-271c77.netlify.app" />
 ```
@@ -109,7 +132,10 @@ KakaoTalk -
 <meta property="twitter:card" content="summary" />
 <meta property="twitter:site" content="Heropy Coffeee" />
 <meta property="twitter:title" content="Heropy Coffee Landing" />
-<meta property="twitter:description" content="헤로피커피는 세계에서 가장 큰 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+<meta
+  property="twitter:description"
+  content="헤로피커피는 세계에서 가장 큰 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다."
+/>
 <meta property="twitter:image" content="./images/for_seo.jpg" />
 <meta property="twitter:url" content="https://epic-darwin-271c77.netlify.app" />
 ```
@@ -132,7 +158,10 @@ KakaoTalk -
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 페이지에 폰트를 적용합니다.
@@ -140,7 +169,7 @@ CSS 글자/문자 관련 속성은 상속(inherit)됩니다.
 
 ```css
 body {
-    font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 ```
 
@@ -151,7 +180,10 @@ body {
 [Getting started for web](https://material.io/develop/web/getting-started)
 
 ```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
 ```
 
 다음과 같이 사용할 수 있습니다.
@@ -168,20 +200,30 @@ body {
 > 자바스크립트 지식이 충분하지 않아도 쉽게 사용할 수 있습니다!
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js" integrity="sha512-agNfXmEo6F+qcj3WGryaRvl9X9wLMQORbTt5ACS9YVqzKDMzhRxY+xjgO45HCLm61OwHWR1Oblp4QSw/SGh9SA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+  integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"
+  integrity="sha512-agNfXmEo6F+qcj3WGryaRvl9X9wLMQORbTt5ACS9YVqzKDMzhRxY+xjgO45HCLm61OwHWR1Oblp4QSw/SGh9SA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
 ```
 
-[.to() 사용법](https://greensock.com/docs/v3/GSAP/gsap.to())  
+[.to() 사용법](<https://greensock.com/docs/v3/GSAP/gsap.to()>)  
 [GSAP Easing](https://greensock.com/docs/v3/Eases)
 
 ```js
-gsap.to(요소, 시간, 옵션)
+gsap.to(요소, 시간, 옵션);
 ```
 
 ```js
-gsap.to(window, .7, {
-  scrollTo: 0
+gsap.to(window, 0.7, {
+  scrollTo: 0,
 });
 ```
 
@@ -193,7 +235,10 @@ gsap.to(window, .7, {
 
 ```html
 <!-- in HEAD -->
-<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
 <!-- in BODY -->
@@ -213,10 +258,10 @@ new Swiper(요소, 옵션);
 ```
 
 ```js
-new Swiper('.swiper', {
-  direction: 'vertical', // 수직 슬라이드
+new Swiper(".swiper", {
+  direction: "vertical", // 수직 슬라이드
   autoplay: true, // 자동 재생 여부
-  loop: true // 반복 재생 여부
+  loop: true, // 반복 재생 여부
 });
 ```
 
@@ -241,26 +286,26 @@ new Swiper('.swiper', {
 
 ```js
 // Youtube IFrame API를 비동기로 로드합니다.
-var tag = document.createElement('script');
+var tag = document.createElement("script");
 
 tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
+var firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 function onYouTubeIframeAPIReady() {
-  new YT.Player('player', {
-    videoId: 'Tdwetb0Mvyc', // 최초 재생할 유튜브 영상 ID
+  new YT.Player("player", {
+    videoId: "Tdwetb0Mvyc", // 최초 재생할 유튜브 영상 ID
     playerVars: {
       autoplay: true, // 자동 재생 유무
       loop: true, // 반복 재생 유무
-      playlist: 'Tdwetb0Mvyc' // 반복 재생할 유튜브 영상 ID 목록
+      playlist: "Tdwetb0Mvyc", // 반복 재생할 유튜브 영상 ID 목록
     },
     events: {
       // 영상이 준비되었을 때,
       onReady: function (event) {
-        event.target.mute() // 음소거!
-      }
-    }
+        event.target.mute(); // 음소거!
+      },
+    },
   });
 }
 ```
@@ -273,17 +318,22 @@ function onYouTubeIframeAPIReady() {
 [ScrollMagic API](http://scrollmagic.io/docs/)
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+  integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
 ```
 
 ```js
-new ScrollMagic
-  .Scene({ // 감시할 장면(Scene)을 추가
-    triggerElement: spyEl, // 보여짐 여부를 감시할 요소를 지정
-    triggerHook: .8 // 화면의 80% 지점에서 보여짐 여부 감시
-  })
-  .setClassToggle(spyEl, 'show') // 요소가 화면에 보이면 show 클래스 추가
-  .addTo(new ScrollMagic.Controller()) // 컨트롤러에 장면을 할당(필수!)
+new ScrollMagic.Scene({
+  // 감시할 장면(Scene)을 추가
+  triggerElement: spyEl, // 보여짐 여부를 감시할 요소를 지정
+  triggerHook: 0.8, // 화면의 80% 지점에서 보여짐 여부 감시
+})
+  .setClassToggle(spyEl, "show") // 요소가 화면에 보이면 show 클래스 추가
+  .addTo(new ScrollMagic.Controller()); // 컨트롤러에 장면을 할당(필수!)
 ```
 
 ## Header 메인 메뉴
@@ -410,7 +460,10 @@ new ScrollMagic
       <div class="contents__texture">
         <div class="inner">
           <h4>티바나</h4>
-          <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
+          <p>
+            다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를
+            선보입니다.
+          </p>
         </div>
       </div>
     </div>
